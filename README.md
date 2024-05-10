@@ -1,6 +1,6 @@
 ### MSI GL65 9SE Hackintosh
 [![macOS](https://img.shields.io/badge/macOS_Sonoma-14.0-Sbrightgreen.svg)](https://www.apple.com/macos/sonoma)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![DualBoot](https://img.shields.io/badge/DualBoot-8A2BE2.svg)]()
 
 ### Hardware
@@ -15,7 +15,7 @@
 | **Audio**      |  Realtek ALC269                          |
 | **Ethernet**   |  Realtek Gigabit Ethernet                |
 | **Trackpad**   |  Synaptics                               |
-| **WiFi card**  |  Intel(R) Wireless-AC 9560 160MHz        |
+| **WiFi card**  |  Intel(R) Wi-Fi 6E AX210 160MHz          |
 | **SD card**    |  Realtek USB 2.0 Card Reader             |
 | **Battery**    |  53Wh                                    |
 
@@ -25,11 +25,8 @@
 **Except:** `RTX 2060 (No macOS driver support)` and `HDMI (port wired to dGPU)`.
 
 ### BIOS Settings
+* Reset BIOS to factory default
 * Fast Boot and Secure Boot = **Disabled**
-* Intel(R) Speed Shift Technology: = **Enabled**
-* USB Configuration > XHCI Hand-off = **Enabled**
-* Intel Virtualization Technology and VT-d = **Enabled**
-* System Agent (SA) Configuration > Graphics Configuration > DVMT Pre-Allocated = **64M**
 * Power & Performance > CPU-Power Management Control > Configure CPU Lock Options > CFG lock = **Disabled**
 
 <img align="center" src="./Media/macOS_About.png" width="420">
